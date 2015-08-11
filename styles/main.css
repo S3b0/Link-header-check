@@ -1,0 +1,81 @@
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+td.primary {
+	background-color: #008CBA;
+	border-color: #0078A0;
+	color: #FFF;
+}
+
+td.secondary {
+	background-color: #E7E7E7;
+	border-color: #C7C7C7;
+	color: #4F4F4F;
+}
+
+td.success {
+	background-color: #43AC6A;
+	border-color: #3A945B;
+	color: #FFF;
+}
+
+td.info {
+	background-color: #A0D3E8;
+	border-color: #74BFDD;
+	color: #4F4F4F;
+}
+
+td.warning {
+	background-color: #F08A24;
+	border-color: #DE770F;
+	color: #FFF;
+}
+
+td.alert {
+	background-color: #F04124;
+	border-color: #DE2D0F;
+	color: #FFF;
+}
+
+span.primary {
+	background-color: #008CBA;
+	border-color: #0078A0;
+	color: #FFF;
+}
+
+span.secondary {
+	background-color: #E7E7E7;
+	border-color: #C7C7C7;
+	color: #4F4F4F;
+}
+
+span.success {
+	background-color: #43AC6A;
+	border-color: #3A945B;
+	color: #FFF;
+}
+
+span.info {
+	background-color: #A0D3E8;
+	border-color: #74BFDD;
+	color: #4F4F4F;
+}
+
+span.warning {
+	background-color: #F08A24;
+	border-color: #DE770F;
+	color: #FFF;
+}
+
+span.alert {
+	background-color: #F04124;
+	border-color: #DE2D0F;
+	color: #FFF;
+}
