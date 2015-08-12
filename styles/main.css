@@ -7,6 +7,11 @@
 	z-index: 9999;
 	background: url('../images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
 }
+/*
+.loader {
+	background: url('../images/ecom-ajax-loader.gif') 50% 50% no-repeat rgb(255,255,255);
+}
+*/
 
 td.primary {
 	background-color: #008CBA;

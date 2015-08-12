@@ -69,11 +69,13 @@
 				$info['http_code_highlight'] = $classes[substr($info['http_code'], 0, 1)];
 
 				if ( $info['http_code'] >= 300 && $info['http_code'] < 400 ) {
+					$followUp = TRUE;
 					curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
 					$exec = curl_exec($ch);
 					$info2 = curl_getinfo($ch);
 					$info2['http_code_highlight'] = $classes[substr($info2['http_code'], 0, 1)];
 				} else {
+					$followUp = FALSE;
 					$info2 = $info;
 				}
 
@@ -89,10 +91,18 @@
 				echo ("
 					<tr>
 						<td>$entry</td>
-						<td class=\"$info[http_code_highlight]\" style=\"text-align:center\">$info[http_code] {$codes[$info['http_code']]}</td>
-						<td>$info2[redirect_count] <a href=\"detail.php?url=" . rawurlencode($entry) . "\" target=\"_blank\"><i class=\"fa fa-info-circle fa-lg\"></i></a></td>
-						<td><a href=\"$info2[url]\" target=\"_blank\">$info2[url]</a></td>
-						<td class=\"$info2[http_code_highlight]\" style=\"text-align:center\">$info2[http_code] {$codes[$info2['http_code']]}</td>
+						<td class=\"$info[http_code_highlight]\" style=\"text-align:center\" colspan=\"" . ($followUp ? '1' : '4') . "\">$info[http_code] {$codes[$info['http_code']]}</td>
+				");
+
+				if ( $followUp ) {
+					echo ("
+							<td>$info2[redirect_count] <a href=\"detail.php?url=" . rawurlencode($entry) . "\" target=\"_blank\"><i class=\"fa fa-info-circle fa-lg\"></i></a></td>
+							<td><a href=\"$info2[url]\" target=\"_blank\">$info2[url]</a></td>
+							<td class=\"$info2[http_code_highlight]\" style=\"text-align:center\">$info2[http_code] {$codes[$info2['http_code']]}</td>
+					");
+				}
+
+				echo ("
 					</tr>
 				");
 			} elseif ( empty($entry) ) {
@@ -117,8 +127,12 @@
 
 		$requestTime = round((microtime(true) - $_SERVER['REQUEST_TIME_FLOAT']) * 1000, 2);
 		$seconds = $requestTime / 1000;
-		$rSeconds = $seconds % 60;
 		$minutes = floor($seconds / 60);
+		if ( $minutes > 0 ) {
+			$rSeconds = $seconds % 60;
+		} else {
+			$rSeconds = round($seconds);
+		}
 		echo "<hr /><p>Request time: {$minutes}m {$rSeconds}s [ {$seconds}s ]</p>";
 	}
 ?>
