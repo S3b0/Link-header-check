@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="../foundation/css/foundation.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles/main.css" />
-	<script src="foundation/js/vendor/modernizr.js"></script>
+	<script src="../foundation/js/vendor/modernizr.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
 
 	<script type="text/javascript">
@@ -45,9 +45,13 @@
 	if ( is_array($_POST) && array_key_exists('uriList', $_POST) && $list = explode(PHP_EOL, $_POST['uriList']) ) {
 		$proxy = explode(':', $proxy);
 		array_walk($list, create_function('&$val', '$val = trim($val);'));
-		echo "<table><thead><tr><th scope=\"column\">Origin</th><th scope=\"column\">Status</th><th scope=\"column\"><abbr title=\"ReDirect Count\">RDC</abbr></th><th scope=\"column\">Target</th><th scope=\"column\">Status</th></tr></thead><tbody>";
+		$list = array_filter($list);
+		$content = "<table><thead><tr><th scope=\"column\">Origin</th><th scope=\"column\">Status</th><th scope=\"column\"><abbr title=\"ReDirect Count\">RDC</abbr></th><th scope=\"column\">Target</th><th scope=\"column\">Status</th></tr></thead><tbody>";
 
-		foreach ( $list as $entry ) {
+		// Set counters
+		$validLinks = $invalidLinks = $errors = 0;
+
+		foreach ( $list as $index => $entry ) {
 			$url = $entry;
 			// prepend protocol (http & https allowed)
 			if ( !preg_match('/^https?:\/\//i', $entry) ) {
@@ -88,25 +92,28 @@
 					'errorMsg' => ''
 				];
 
-				echo ("
+				$content .= ("
 					<tr>
 						<td>$entry</td>
 						<td class=\"$info[http_code_highlight]\" style=\"text-align:center\" colspan=\"" . ($followUp ? '1' : '4') . "\">$info[http_code] {$codes[$info['http_code']]}</td>
 				");
 
 				if ( $followUp ) {
-					echo ("
+					$content .= ("
 							<td>$info2[redirect_count] <a href=\"detail.php?url=" . rawurlencode($entry) . "\" target=\"_blank\"><i class=\"fa fa-info-circle fa-lg\"></i></a></td>
 							<td><a href=\"$info2[url]\" target=\"_blank\">$info2[url]</a></td>
 							<td class=\"$info2[http_code_highlight]\" style=\"text-align:center\">$info2[http_code] {$codes[$info2['http_code']]}</td>
 					");
 				}
 
-				echo ("
+				$content .= ("
 					</tr>
 				");
-			} elseif ( empty($entry) ) {
-				continue;
+
+				$validLinks++;
+				if ( $info2['http_code'] < 200 || $info2['http_code'] >= 300 ) {
+					$errors++;
+				}
 			} else {
 				$result[] = [
 					'orig' => $entry,
@@ -114,16 +121,17 @@
 					'errorMsg' => 'URL validation failed!'
 				];
 
-				echo ("
+				$content .= ("
 					<tr>
 						<td>$entry</td>
 						<td colspan=\"4\" class=\"alert\">URL validation failed!</td>
 					</tr>
 				");
+				$invalidLinks++;
 			}
 		}
 
-		echo "</tbody></table>";
+		$content .= "</tbody></table>";
 
 		$requestTime = round((microtime(true) - $_SERVER['REQUEST_TIME_FLOAT']) * 1000, 2);
 		$seconds = $requestTime / 1000;
@@ -133,10 +141,20 @@
 		} else {
 			$rSeconds = round($seconds);
 		}
-		echo "<hr /><p>Request time: {$minutes}m {$rSeconds}s [ {$seconds}s ]</p>";
+		echo ("
+			<div data-alert class=\"alert-box info text-center\">
+				<i class=\"fa fa-info-circle fa-fw fa-lg\"></i>$validLinks links checked in {$minutes}m {$rSeconds}s [ {$seconds}s ] // $errors errors found // $invalidLinks invalid links found<a href=\"#\" class=\"close\">&times;</a>
+			</div>
+			$content
+		");
 	}
 ?>
 		</div>
 	</div>
+	<script src="../foundation/js/vendor/jquery.js"></script>
+	<script src="../foundation/js/foundation.min.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
 </body>
 </html>
