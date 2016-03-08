@@ -5,11 +5,10 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>.htaccess redirect link checker</title>
-	<link rel="stylesheet" href="../foundation/css/foundation.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendor/zurb/foundation/dist/foundation.min.css" />
+	<link rel="stylesheet" href="vendor/components/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles/main.css" />
-	<script src="../foundation/js/vendor/modernizr.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+	<script type="text/javascript" src="vendor/components/jquery/jquery.min.js"></script>
 
 	<script type="text/javascript">
 		$(window).load(function() {
@@ -32,7 +31,7 @@
 				</label>
 			</div>
 			<div class="large-12 columns">
-				<button type="submit" class="button expand">Submit</button>
+				<button type="submit" class="expanded button">Submit</button>
 			</div>
 		</form>
 	</div>
@@ -151,8 +150,7 @@
 ?>
 		</div>
 	</div>
-	<script src="../foundation/js/vendor/jquery.js"></script>
-	<script src="../foundation/js/foundation.min.js"></script>
+	<script src="vendor/zurb/foundation/dist/foundation.min.js"></script>
 	<script>
 		$(document).foundation();
 	</script>

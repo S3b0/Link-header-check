@@ -1,0 +1,123 @@
+[
+    {
+        "name": "zurb/foundation",
+        "version": "6.1.2",
+        "version_normalized": "6.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zurb/foundation-sites.git",
+            "reference": "b7cedf57265b8c8ed9b746096cc2dd9dade9c55c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zurb/foundation-sites/zipball/b7cedf57265b8c8ed9b746096cc2dd9dade9c55c",
+            "reference": "b7cedf57265b8c8ed9b746096cc2dd9dade9c55c",
+            "shasum": ""
+        },
+        "time": "2016-01-23 00:59:31",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "ZURB, Inc.",
+                "email": "foundation@zurb.com",
+                "homepage": "http://zurb.com"
+            }
+        ],
+        "description": "The most advanced responsive front-end framework in the world.",
+        "homepage": "http://foundation.zurb.com",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "mobile-first",
+            "responsive",
+            "sass",
+            "scss"
+        ]
+    },
+    {
+        "name": "components/font-awesome",
+        "version": "4.5.0",
+        "version_normalized": "4.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/font-awesome.git",
+            "reference": "069663a8419f9db90f9bec71e71ed4bb9d28d6ee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/font-awesome/zipball/069663a8419f9db90f9bec71e71ed4bb9d28d6ee",
+            "reference": "069663a8419f9db90f9bec71e71ed4bb9d28d6ee",
+            "shasum": ""
+        },
+        "time": "2015-11-24 10:33:56",
+        "type": "component",
+        "extra": {
+            "component": {
+                "styles": [
+                    "css/font-awesome.css"
+                ],
+                "files": [
+                    "css/font-awesome.min.css",
+                    "fonts/*"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT",
+            "OFL-1.1"
+        ],
+        "description": "The iconic font designed for use with Twitter Bootstrap."
+    },
+    {
+        "name": "components/jquery",
+        "version": "2.2.1",
+        "version_normalized": "2.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/jquery.git",
+            "reference": "7894addbce3c4de6f82449610e6f8e168b49e9b0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/jquery/zipball/7894addbce3c4de6f82449610e6f8e168b49e9b0",
+            "reference": "7894addbce3c4de6f82449610e6f8e168b49e9b0",
+            "shasum": ""
+        },
+        "time": "2016-02-24 08:16:25",
+        "type": "component",
+        "extra": {
+            "component": {
+                "scripts": [
+                    "jquery.js"
+                ],
+                "files": [
+                    "jquery.min.js",
+                    "jquery.min.map",
+                    "jquery-migrate.js",
+                    "jquery-migrate.min.js"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "John Resig",
+                "email": "jeresig@gmail.com"
+            }
+        ],
+        "description": "jQuery JavaScript Library",
+        "homepage": "http://jquery.com"
+    }
+]
