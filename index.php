@@ -140,15 +140,29 @@
 		} else {
 			$rSeconds = round($seconds);
 		}
-		$errors = $errors ? "<div class='warning button' style='margin:0'><i class='fa fa-fw fa-lg fa-exclamation-triangle'></i> {$errors} errors found&nbsp;</div>" : "";
-		$invalidLinks = $invalidLinks ? "<div class='alert button' style='margin:0'><i class='fa fa-fw fa-lg fa-times-circle'></i> {$invalidLinks} invalid links found&nbsp;</div>" : "";
-		echo ("
-			<div class='callout' data-closable>
-				<div class='success button' style='margin:0'><i class='fa fa-fw fa-lg fa-check-circle'></i> {$validLinks} links checked in {$minutes}m {$rSeconds}s [ {$seconds}s ]</div> {$errors} {$invalidLinks}
+		$callouts = ("
+			<div class='success callout' data-closable>
+				<i class='fa fa-fw fa-lg fa-check-circle'></i> {$validLinks} links checked in {$minutes}m {$rSeconds}s [ {$seconds}s ]
 				<button class='close-button' aria-label='Dismiss alert' type='button' data-close><span aria-hidden='true'>&times;</span></button>
 			</div>
-			$content
 		");
+		if ($invalidLinks) {
+			$callouts .= ("
+				<div class='warning callout' data-closable>
+					<i class='fa fa-fw fa-lg fa-exclamation-triangle'></i> {$invalidLinks} invalid links found!
+					<button class='close-button' aria-label='Dismiss alert' type='button' data-close><span aria-hidden='true'>&times;</span></button>
+				</div>
+			");
+		}
+		if ($errors) {
+			$callouts .= ("
+				<div class='alert callout' data-closable>
+					<i class='fa fa-fw fa-lg fa-times-circle'></i> {$errors} errors found!
+					<button class='close-button' aria-label='Dismiss alert' type='button' data-close><span aria-hidden='true'>&times;</span></button>
+				</div>
+			");
+		}
+		echo $callouts . $content;
 	}
 ?>
 		</div>
