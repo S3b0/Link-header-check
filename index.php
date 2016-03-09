@@ -140,9 +140,12 @@
 		} else {
 			$rSeconds = round($seconds);
 		}
+		$errors = $errors ? "<div class='warning button' style='margin:0'><i class='fa fa-fw fa-lg fa-exclamation-triangle'></i> {$errors} errors found&nbsp;</div>" : "";
+		$invalidLinks = $invalidLinks ? "<div class='alert button' style='margin:0'><i class='fa fa-fw fa-lg fa-times-circle'></i> {$invalidLinks} invalid links found&nbsp;</div>" : "";
 		echo ("
-			<div data-alert class=\"alert-box info text-center\">
-				<i class=\"fa fa-info-circle fa-fw fa-lg\"></i>$validLinks links checked in {$minutes}m {$rSeconds}s [ {$seconds}s ] // $errors errors found // $invalidLinks invalid links found<a href=\"#\" class=\"close\">&times;</a>
+			<div class='callout' data-closable>
+				<div class='success button' style='margin:0'><i class='fa fa-fw fa-lg fa-check-circle'></i> {$validLinks} links checked in {$minutes}m {$rSeconds}s [ {$seconds}s ]</div> {$errors} {$invalidLinks}
+				<button class='close-button' aria-label='Dismiss alert' type='button' data-close><span aria-hidden='true'>&times;</span></button>
 			</div>
 			$content
 		");

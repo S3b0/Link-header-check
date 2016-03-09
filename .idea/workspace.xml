@@ -2,339 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="214f9f99-4228-44bd-958b-a165a251f7e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/a11y/chrome-a11y-inspector.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/avatar-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/avatar-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/avatar-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-expo-retina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-expo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-foundation-retina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-foundation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-icons-retina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-products-retina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-products.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-studios-retina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-studios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-top-icons-retina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-top-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/footer-university.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/social-retina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/icons/social.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/interchange/large.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/interchange/map-medium.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/interchange/map-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/interchange/medium.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/interchange/small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/orbit-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/orbit-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/orbit-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/orbit-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/rectangle-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/rectangle-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/rectangle-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/rectangle-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/rectangle-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/rectangle-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/rectangle-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/rectangle-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/square-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/square-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/square-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/square-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/square-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/square-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/thumbnail/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/thumbnail/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/thumbnail/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/voyager.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/jquery-migrate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/jquery-migrate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/components/jquery/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/.npm/package/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/.npm/package/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/.npm/package/npm-shrinkwrap.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/.versions" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/assets/foundation-flex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/assets/foundation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/config/.jshintConfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/config/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/config/scss-lint.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/dist/foundation-flex.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/dist/foundation-flex.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/dist/foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/dist/foundation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/dist/foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/dist/foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/logo-sass.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/yeti.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/img/zurb-logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/js/docs.buildingBlocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/js/docs.copyButton.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/js/docs.examples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/js/docs.interchangeMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/js/docs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/js/docs.kitchenSink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/js/docs.search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/js/docs.tableOfContents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/partials/interchange-default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/partials/interchange-large.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/partials/interchange-medium.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/partials/sticky-nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/assets/scss/docs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/layout/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/abide.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/accessibility.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/accordion-menu.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/accordion.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/badge.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/base-typography.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/breadcrumbs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/button-group.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/button.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/callout.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/close-button.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/compatibility.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/drilldown-menu.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/dropdown-menu.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/dropdown.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/equalizer.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/flex-grid.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/flex-video.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/float-classes.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/forms.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/global.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/grid.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/installation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/interchange.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/javascript-utilities.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/javascript.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/kitchen-sink.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/label.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/magellan.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/media-object.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/media-queries.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/menu.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/motion-ui.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/navigation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/off-canvas.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/orbit.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/pagination.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/panini.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/progress-bar.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/responsive-navigation.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/reveal.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/rtl.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/sass-functions.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/sass-mixins.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/sass.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/slider.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/starter-projects.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/sticky.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/switch.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/table.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/tabs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/thumbnail.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/toggler.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/tooltip.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/top-bar.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/typography-base.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/typography-helpers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/pages/visibility.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/partials/component-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/partials/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/partials/mobile-navigation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/partials/navigation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docs/partials/off-canvi.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/docslink.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/gulp/clean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/gulp/copy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/gulp/deploy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/gulp/docs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/gulp/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/gulp/lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/gulp/sass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/gulp/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.abide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.accordionMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.drilldown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.dropdownMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.equalizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.interchange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.magellan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.offcanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.orbit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.responsiveMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.responsiveToggle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.reveal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.toggler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.util.box.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.util.keyboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.util.mediaQuery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.util.motion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.util.nest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.util.timerAndImageLoader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.util.touch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/js/foundation.util.triggers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/lib/util-map.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/meteor-README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/sache.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/_global.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_accordion-menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_accordion.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_breadcrumbs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_button-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_callout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_close-button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_drilldown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_dropdown-menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_flex-video.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_label.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_media-object.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_off-canvas.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_orbit.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_progress-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_reveal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_slider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_sticky.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_switch.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_table.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_thumbnail.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_title-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_top-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/components/_visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/forms/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/forms/_error.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/forms/_fieldset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/forms/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/forms/_help-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/forms/_input-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/forms/_label.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/forms/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/forms/_text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/foundation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/grid/_classes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/grid/_column.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/grid/_flex-grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/grid/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/grid/_gutter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/grid/_layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/grid/_position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/grid/_row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/grid/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/settings/_settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/typography/_alignment.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/typography/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/typography/_helpers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/typography/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/typography/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/util/_breakpoint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/util/_color.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/util/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/util/_selector.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/util/_unit.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/util/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/scss/util/_value.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/javascript/chai.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/javascript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/javascript/mocha.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/javascript/mocha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/javascript/tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/sass/_breakpoint.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/sass/_color.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/sass/_components.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/sass/_selector.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/sass/_unit.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/sass/_value.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zurb/foundation/test/sass/test_sass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="link-header-check.iws" />
@@ -356,7 +24,30 @@
     <favorites_list name="link-header-check" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6085578">
+              <caret line="146" column="59" selection-start-line="146" selection-start-column="59" selection-end-line="146" selection-end-column="59" />
+              <folding>
+                <marker date="1457510462000" expanded="true" signature="3152:3349" placeholder="..." />
+                <marker date="1457510462000" expanded="false" signature="3231:3248" placeholder="..." />
+                <marker date="1457510462000" expanded="false" signature="3688:3705" placeholder="..." />
+                <marker date="1457510462000" expanded="true" signature="4080:4181" placeholder="..." />
+                <marker date="1457510462000" expanded="true" signature="4571:4579" placeholder="..." />
+                <marker date="1457510462000" expanded="true" signature="4746:4754" placeholder="..." />
+                <marker date="1457510462000" expanded="true" signature="4905:5246" placeholder="..." />
+                <marker date="1457510462000" expanded="true" signature="4905:5249" placeholder="..." />
+                <marker date="1457510462000" expanded="true" signature="4905:5264" placeholder="..." />
+                <marker date="1457510462000" expanded="true" signature="4906:5246" placeholder="..." />
+                <marker date="1457510462000" expanded="true" signature="4946:4954" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -409,7 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -452,120 +142,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zurb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foundation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="link-header-check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="link-header-check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zurb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foundation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="link-header-check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="link-header-check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="link-header-check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="link-header-check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="link-header-check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="link-header-check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="link-header-check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="link-header-check" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -587,6 +163,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -612,6 +189,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -633,24 +215,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="123" width="2560" height="1440" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25178713" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553614" sideWeight="0.49708456" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2553614" sideWeight="0.50291544" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -663,11 +245,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457510462000" expanded="true" signature="3152:3349" placeholder="..." />
+            <marker date="1457510462000" expanded="false" signature="3231:3248" placeholder="..." />
+            <marker date="1457510462000" expanded="false" signature="3688:3705" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4080:4181" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4571:4579" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4746:4754" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4905:5246" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4905:5249" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4905:5264" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4906:5246" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4946:4954" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,25 +280,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7373737">
-          <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
-          <folding>
-            <marker date="1457434499000" expanded="true" signature="3152:3349" placeholder="..." />
-            <marker date="1457434499000" expanded="false" signature="3231:3248" placeholder="..." />
-            <marker date="1457434499000" expanded="false" signature="3688:3705" placeholder="..." />
-            <marker date="1457434499000" expanded="true" signature="4080:4181" placeholder="..." />
-            <marker date="1457434499000" expanded="true" signature="4578:4811" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zurb/foundation/dist/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6085578">
+          <caret line="146" column="59" selection-start-line="146" selection-start-column="59" selection-end-line="146" selection-end-column="59" />
+          <folding>
+            <marker date="1457510462000" expanded="true" signature="3152:3349" placeholder="..." />
+            <marker date="1457510462000" expanded="false" signature="3231:3248" placeholder="..." />
+            <marker date="1457510462000" expanded="false" signature="3688:3705" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4080:4181" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4571:4579" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4746:4754" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4905:5246" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4905:5249" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4905:5264" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4906:5246" placeholder="..." />
+            <marker date="1457510462000" expanded="true" signature="4946:4954" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
