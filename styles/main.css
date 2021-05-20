@@ -1,12 +1,19 @@
 .loader {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url('../images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+  background: url('../images/page-loader.gif') 50% 50% no-repeat #f9f9f9;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: all 1s ease-in-out;
+  z-index: 9999;
 }
+
+.loader.show {
+  opacity: 1;
+}
+
 /*
 .loader {
 	background: url('../images/ecom-ajax-loader.gif') 50% 50% no-repeat rgb(255,255,255);
@@ -14,73 +21,73 @@
 */
 
 td.primary {
-	background-color: #008CBA;
-	border-color: #0078A0;
-	color: #FFF;
+  background-color: #008cba;
+  border-color: #0078a0;
+  color: #fff;
 }
 
 td.secondary {
-	background-color: #E7E7E7;
-	border-color: #C7C7C7;
-	color: #4F4F4F;
+  background-color: #e7e7e7;
+  border-color: #c7c7c7;
+  color: #4f4f4f;
 }
 
 td.success {
-	background-color: #43AC6A;
-	border-color: #3A945B;
-	color: #FFF;
+  background-color: #43ac6a;
+  border-color: #3a945b;
+  color: #fff;
 }
 
 td.info {
-	background-color: #A0D3E8;
-	border-color: #74BFDD;
-	color: #4F4F4F;
+  background-color: #a0d3e8;
+  border-color: #74bfdd;
+  color: #4f4f4f;
 }
 
 td.warning {
-	background-color: #F08A24;
-	border-color: #DE770F;
-	color: #FFF;
+  background-color: #f08a24;
+  border-color: #de770f;
+  color: #fff;
 }
 
 td.alert {
-	background-color: #F04124;
-	border-color: #DE2D0F;
-	color: #FFF;
+  background-color: #f04124;
+  border-color: #de2d0f;
+  color: #fff;
 }
 
 span.primary {
-	background-color: #008CBA;
-	border-color: #0078A0;
-	color: #FFF;
+  background-color: #008cba;
+  border-color: #0078a0;
+  color: #fff;
 }
 
 span.secondary {
-	background-color: #E7E7E7;
-	border-color: #C7C7C7;
-	color: #4F4F4F;
+  background-color: #e7e7e7;
+  border-color: #c7c7c7;
+  color: #4f4f4f;
 }
 
 span.success {
-	background-color: #43AC6A;
-	border-color: #3A945B;
-	color: #FFF;
+  background-color: #43ac6a;
+  border-color: #3a945b;
+  color: #fff;
 }
 
 span.info {
-	background-color: #A0D3E8;
-	border-color: #74BFDD;
-	color: #4F4F4F;
+  background-color: #a0d3e8;
+  border-color: #74bfdd;
+  color: #4f4f4f;
 }
 
 span.warning {
-	background-color: #F08A24;
-	border-color: #DE770F;
-	color: #FFF;
+  background-color: #f08a24;
+  border-color: #de770f;
+  color: #fff;
 }
 
 span.alert {
-	background-color: #F04124;
-	border-color: #DE2D0F;
-	color: #FFF;
+  background-color: #f04124;
+  border-color: #de2d0f;
+  color: #fff;
 }

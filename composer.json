@@ -1,7 +1,12 @@
 {
-    "require": {
-        "zurb/foundation": "^6.1",
-        "components/font-awesome": "^4.5",
-        "components/jquery": "^2.2"
-    }
+  "require": {
+    "zurb/foundation": "^6.6",
+    "components/font-awesome": "^4.7",
+    "components/jquery": "^2.2",
+    "ext-curl": "*",
+    "ext-intl": "*"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.2"
+  }
 }

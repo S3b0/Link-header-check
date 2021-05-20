@@ -1,12 +1,6 @@
 <?php
-	/**
-	 * Created by PhpStorm.
-	 * User: S3b0
-	 * Date: 11/08/15
-	 * Time: 10:34 AM
-	 */
+	//$proxy = 'proxy:8080';
 
-	$proxy = 'proxy:8080';
 	$classes = [
 		2 => 'success',
 		3 => 'secondary',
