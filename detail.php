@@ -40,7 +40,7 @@ require_once "includes.php";
     <div class="large-12 columns">
         <?php
         require_once('includes.php');
-        $pattern = '/(' . implode('|', array_keys(Response::$statusTexts)) . ') (' . implode('|', Response::$statusTexts) . ')$/i';
+        $pattern = '/(' . implode('|', array_keys(Response::$statusTexts)) . ')( (' . implode('|', Response::$statusTexts) . '))?$/i';
 
         exec('curl -I -L --no-sessionid --proxy1.0 ' . escapeshellarg($proxy ?? '') . ' ' . escapeshellarg(rawurldecode($_GET['url'])), $output);
 
