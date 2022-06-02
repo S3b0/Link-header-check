@@ -1,6 +1,8 @@
 <?php
 
-use Algo26\IdnaConvert\ToIdn;
+declare(strict_types=1);
+
+use Symfony\Component\HttpFoundation\Response;
 
 require_once 'vendor/autoload.php';
 require_once 'includes.php';
@@ -9,46 +11,44 @@ require_once 'includes.php';
 <html class="no-js" lang="en">
 
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>.htaccess redirect link checker</title>
-	<link rel="stylesheet" href="vendor/zurb/foundation/dist/css/foundation.min.css" />
-	<link rel="stylesheet" href="vendor/components/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="styles/main.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.htaccess redirect link checker</title>
+    <link rel="stylesheet" href="css/app.css" />
 
-	<script type="text/javascript">
-	  window.addEventListener('load', () => document.getElementById('spinner').classList.remove('show'))
-	  window.setTimeout(() => document.getElementById('spinner').classList.add('hide'), 1000)
-	</script>
+    <script type="text/javascript">
+        window.addEventListener('load', () => document.getElementById('spinner').classList.remove('show'))
+        window.setTimeout(() => document.getElementById('spinner').classList.add('hide'), 1000)
+    </script>
 </head>
 <body>
 <div id="spinner" class="loader show"></div>
 <div class="grid-container">
-	<div class="grid-x">
-		<div class="cell">
-			<h1>.htaccess redirect link checker v1.0.0a</h1>
-		</div>
-	</div>
-	<div class="grid-x">
-		<form method="post" class="cell">
-			<label>URL list
-				<textarea placeholder="Enter URLs" name="uriList" rows="20"><?php
+    <div class="grid-x">
+        <div class="cell">
+            <h1>.htaccess redirect link checker v1.0.0a</h1>
+        </div>
+    </div>
+    <div class="grid-x">
+        <form method="post" class="cell">
+            <label>URL list
+                <textarea placeholder="Enter URLs" name="uriList" rows="20"><?php
 
                     if (is_array($_POST) && array_key_exists('uriList', $_POST)) {
                         echo $_POST['uriList'];
                     } ?></textarea>
-			</label>
-			<button type="submit" class="expanded button">Submit</button>
-		</form>
-	</div>
+            </label>
+            <button type="submit" class="expanded button">Submit</button>
+        </form>
+    </div>
 
-	<div class="grid-x">
-		<div class="cell">
+    <div class="grid-x">
+        <div class="cell">
             <?php
 
             if (is_array($_POST) && array_key_exists('uriList', $_POST) && $list = explode(PHP_EOL, $_POST['uriList'])) {
-                if (isset($proxy)) {
-                    $proxy = explode(':', $proxy);
+                if (isset($proxy) && null !== ($proxy ?? null)) {
+                    [$proxyHost, $proxyPort] = explode(':', $proxy, 2);
                 }
                 array_walk($list, 'trim');
                 $list = array_filter($list);
@@ -68,25 +68,25 @@ require_once 'includes.php';
                     if (filter_var($url, FILTER_VALIDATE_URL)) {
                         $ch = curl_init();
                         curl_setopt($ch, CURLOPT_URL, $url);
-                        if (isset($proxy)) {
-                            curl_setopt($ch, CURLOPT_PROXY, $proxy[0]);
-                            curl_setopt($ch, CURLOPT_PROXYPORT, $proxy[1]);
+                        if (isset($proxyHost, $proxyPort)) {
+                            curl_setopt($ch, CURLOPT_PROXY, $proxyHost);
+                            curl_setopt($ch, CURLOPT_PROXYPORT, $proxyPort);
                         }
                         curl_setopt($ch, CURLOPT_HEADER, true);
                         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                        curl_setopt($ch, CURLINFO_HTTP_CODE, true);
+                        //curl_setopt($ch, CURLINFO_HTTP_CODE, true);
                         curl_setopt($ch, CURLINFO_HEADER_OUT, true);
 
                         $exec = curl_exec($ch);
                         $info = curl_getinfo($ch);
-                        $info['http_code_highlight'] = $classes[substr($info['http_code'], 0, 1)];
+                        $info['http_code_highlight'] = $classes[((string)$info['http_code'])[0]] ?? 'alert';
 
                         if ($info['http_code'] >= 300 && $info['http_code'] < 400) {
                             $followUp = true;
                             curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
                             $exec = curl_exec($ch);
                             $info2 = curl_getinfo($ch);
-                            $info2['http_code_highlight'] = $classes[substr($info2['http_code'], 0, 1)];
+                            $info2['http_code_highlight'] = $classes[((string)$info2['http_code'])[0]];
                         } else {
                             $followUp = false;
                             $info2 = $info;
@@ -104,14 +104,14 @@ require_once 'includes.php';
                         $content .= ("
 					<tr>
 						<td>$entry</td>
-						<td class=\"$info[http_code_highlight]\" style=\"text-align:center\" colspan=\"" . ($followUp ? '1' : '4') . "\">$info[http_code] {$codes[$info['http_code']]}</td>
+						<td class=\"{$info['http_code_highlight']}\" style=\"text-align:center\" colspan=\"" . ($followUp ? '1' : '4') . "\">{$info['http_code']} " . (Response::$statusTexts[$info['http_code']] ?? '') . "</td>
 				");
 
                         if ($followUp) {
                             $content .= ("
 							<td>$info2[redirect_count] <a href=\"detail.php?url=" . rawurlencode($url) . "\" target=\"_blank\"><i class=\"fa fa-info-circle fa-lg\"></i></a></td>
 							<td><a href=\"$info2[url]\" target=\"_blank\">$info2[url]</a></td>
-							<td class=\"$info2[http_code_highlight]\" style=\"text-align:center\">$info2[http_code] {$codes[$info2['http_code']]}</td>
+							<td class=\"$info2[http_code_highlight]\" style=\"text-align:center\">$info2[http_code] " . Response::$statusTexts[$info2['http_code']] . "</td>
 					");
                         }
 
@@ -175,8 +175,8 @@ require_once 'includes.php';
                 echo $callouts . $content;
             }
             ?>
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

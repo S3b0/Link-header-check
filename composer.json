@@ -1,10 +1,11 @@
 {
   "require": {
-    "zurb/foundation": "^6.6",
-    "components/font-awesome": "^4.7",
-    "components/jquery": "^2.2",
     "ext-curl": "*",
-    "ext-intl": "*"
+    "ext-intl": "*",
+    "algo26-matthias/idna-convert": "*",
+    "symfony/dotenv": "*",
+    "symfony/http-foundation": "*",
+    "php": "^8.1"
   },
   "require-dev": {
     "symfony/var-dumper": "^5.2"

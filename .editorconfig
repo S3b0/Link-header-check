@@ -1,0 +1,44 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+max_line_length = 160
+trim_trailing_whitespace = true
+
+[*.html]
+indent_style = tab
+
+[*.json]
+indent_size = 2
+
+[*.{md,markdown}]
+indent_size = 2
+
+[*.neon]
+indent_size = 2
+indent_style = tab
+
+[*.rst]
+max_line_length = 80
+
+[*.{ts,js}]
+indent_size = 2
+
+[*.{typoscript,tsconfig}]
+indent_size = 2
+
+[*.{xlf,xliff}]
+indent_style = tab
+
+[*.xml]
+indent_style = tab
+
+[*.{yaml,yml}]
+indent_size = 2
+
+[.htaccess]
+indent_style = tab
