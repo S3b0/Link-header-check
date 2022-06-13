@@ -60,7 +60,7 @@ require_once 'includes.php';
                 foreach ($list as $index => $entry) {
                     $url = trim($entry);
                     $result = [];
-                    $url = idn_to_ascii($url);
+                    $url = idn_to_ascii($url) ?: $url;
                     // prepend protocol (http & https allowed)
                     if (!preg_match('/^https?:\/\//i', $url)) {
                         $url = 'http://' . $url;
